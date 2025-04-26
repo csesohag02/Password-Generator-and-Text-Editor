@@ -38,7 +38,7 @@ It helps you securely generate, save, and manage passwords, and includes a mini 
 
 **2. Install dependencies**
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements
    ```
 
 **3. Run the application**
@@ -48,7 +48,7 @@ It helps you securely generate, save, and manage passwords, and includes a mini 
 
 ---
 
-## 🛠 Requirements
+## Requirements
 - Python 3.7+
 - Modules:
   - PyQt6
@@ -59,6 +59,26 @@ It helps you securely generate, save, and manage passwords, and includes a mini 
   - json (standard library)
   - datetime (standard library)
 
+---
 
+## How to Use
 
+- **Password Generator**: 
+  - Set the password length and character options.
+  - Click **Generate** to create a password.
+  - Click **Copy** to copy the generated password.
+  - Click **Save** to store it with a timestamp.
 
+- **Saved Passwords**:
+  - View all previously saved passwords.
+  - Click any item to copy the password to the clipboard.
+
+- **Text Editor**:
+  - Type notes or text.
+  - Select font family and size.
+  - Use **Bold**/**Italic** buttons for formatting.
+  - Open and save text files.
+
+- **Settings**:
+  - Enable/disable Dark Mode with a checkbox.
+  - Settings are saved automatically.
